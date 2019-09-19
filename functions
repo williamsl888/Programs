@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+</head>
+<body>
+
+</script>
+</body>
+<h1>Making Use of Functions</h1>
+<p id="result"></p>
+<script>
+function myfunction(p1,p2)
+{
+  return p1*p2;
+}
+document.getElementById("result").innerHTML=myfunction(3,2);
+  </script>
+
+  </body>
