@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+var num= Math.random();
+var guess=prompt("Guess the number");
+if(guess==num)
+{
+  alert("You won");
+}
+else
+{
+  alert("Sorry!Try next time");
+}
+
+      </script>
