@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      var day=parseInt(prompt("Please enter current day"));
+      var month=parseInt(prompt("Please enter current month"));
+      var year=parseInt(prompt("Please neter current year"));
+      if(month==2)
+      {
+        if(year%4==0)
+        {
+          day=day+1;
+          alert("Tommorow is "+day+"-"+month+"-"+year);
+        }
+        else
+        {
+          if(day==28)
+          {
+            month=month+1;
+            alert("Tommorow is 1 -"+month+"-"+year);
+          }
+          else{
+            day=day+1;
+            alert("Tommorow is"+day+"-"+month+"-"+year);
+          }
+        }
+      }
+
+      </script>
+
+      <!-- leap year is divided by 4__>
