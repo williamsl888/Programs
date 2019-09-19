@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .btn{
+        padding:8px;
+        background-color:black;
+        color:white;
+        font-size:14px;
+        border:1px solid black;
+        border-radius:5px;
+      }
+      </style>
+  <body>
+    <h1>On click event </h1>
+    <button onclick="display()" class="btn">The time is : </button>
+    <p id="demo"></p>
+    <script>
+      function display()
+      {
+        document.getElementById('demo').innerHTML=Date();
+      }
+      </script>
