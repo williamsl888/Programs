@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+.btn{
+  padding:8px;
+  background-color:black;
+  font-size:16px;
+  color:white;
+  border:1px solid black;
+  border-radius:5px;
+}
+      </style>
+      </head>
+      <body>
+      <h1>USing length function in string</h1>
+      <p>Do you want to know the length of you name then click on the button below</p>
+      <button onclick="displaylength()" class="btn">Click me</button>
+      <p id="demo"></p>
+      <script>
+        
+function displaylength()
+{
+  var text=prompt("Enter your name");
+  document.getElementById("demo").innerHTML="Your name is "+text.length+"letters long";
+}
+</script>
+      </body></html>
+
+<!--text.length will give you length, your one click be be anything-->
