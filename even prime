@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+</head>
+<body>
+
+</script>
+</body>
+<h1>Generate Even Numbers</h1>
+<p id="even"></p>
+<script>
+  var start=parseInt(prompt("Please enter the starting number of the range"));
+  var end=parseInt(prompt("Please enter the ending number of the range"));
+  var i;
+  var text="";
+  for(i=start;i<=end;i++)
+  {
+    if(i%2==0)
+    {
+      text=text+i+"<br>";
+    }
+  }
+  document.getElementById("even").innerHTML=text;
+  </script>
+  </body>
