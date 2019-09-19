@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      var a=parseInt(prompt("Please enter a year"));
+if(a%400==0)
+{
+  alert("It is a leap year");
+}
+else if(a%4==0)
+{
+  alert("It is a leap year");
+}
+else{
+  alert("It is not a leap year");
+}
+      </script>
