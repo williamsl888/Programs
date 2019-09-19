@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+var temp=parseInt(prompt("Enter the temperature in fahreheit"));
+var temptocelsius =  (5/9)*(temp-32);
+alert("The temperature in celsiius is"+temptocelsius);
+
+      </script>
