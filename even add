@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      var a=parseInt(prompt("Please enter a number"));
+      if(a%2==0){
+        alert("It is even");
+      }
+      else{
+        alert("It is odd");
+      }
+      </script>
