@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+</head>
+<body>
+<h1>Table of a number</h1>
+<p id="numbertable"></p>
+<script>
+  var num=parseInt(prompt("Please enter a number"));
+  var tab;
+  var i;
+  var text=" ";
+  for(i=1;i<=10;i++)
+  {
+tab=num*i;
+    text+=num+"*"+i+"="+tab+"<br>";
+  }
+document.getElementById("numbertable").innerHTML=text;
+</script>
+</body>
