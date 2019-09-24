@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .btn{
+        background-color:black;
+        color:white;
+        font-size:16px;
+        border:1px solid black;
+        border-radius:5px;
+        padding:8px;
+      }
+
+</style>
+  </head>
+  <body>
+    <h1>MAtching strings</h1>
+    Please Provide the string to enter into the programming world ! Click on the button below to start your journey !
+    <button onclick="check()" class="btn">Check</button>
+    <p id="demo">
+    <script>
+function check(){
+  var password=prompt("Please enter the String to enter the Programming World");
+  if(password=="Bravery")
+  {
+    document.getElementById("demo").innerHTML="You can enter ! Congratulations";
+
+  }
+  else{
+    document.getElementById("demo").innerHTML="Sorry ! you need to be brave to enter !";
+  }
+}
+   </script>   </body></html>
