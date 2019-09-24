@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+.btn{
+  background-color:darkblue;
+  border-radius:5px;
+  border:1px solid darkblue;
+  color:white;
+  padding:5px;
+}
+</style>
+  </head>
+  <body>
+    <h2>Javascript String concat methods</h2>
+    <p id="demo"></p>
+    <button onclick="concatenate()" class="btn">Click me</button>
+    <script>
+      function concatenate()
+      {
+      var text1=prompt("Please enter the first word");
+      var text2=prompt("Please enter the second word");
+      var text3=text1.concat(" ",text2);
+      document.getElementById("demo").innerHTML=text3;
+      }
+      </script>
+  </body></html>
+
+  <!--starting from 7 it will cut at 6-->
