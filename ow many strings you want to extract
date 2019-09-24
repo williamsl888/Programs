@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h2>Html substr method</h2>
+    <p id="demo">
+    </p>
+    <script>
+      var str=prompt("Please enter a string");
+      var start=parseInt(prompt("Please enter the starting index"));
+      var no_of_characters=parseInt(prompt("Please enter the number of characters you want to extract"));
+      var res=str.substr(start,no_of_characters);
+      document.getElementById("demo").innerHTML = res;
+      </script>
+  </body></html>
+
+  <!--starting from 7 it will cut at 6-->
