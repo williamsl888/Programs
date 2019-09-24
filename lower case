@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .btn{
+        background-color:darkblue;
+        border-radius:5px;
+        color:white;
+        padding:5px;
+        border:1px solid darkblue;
+        font-size:18px;
+      }
+      </style>
+  </head>
+  <body>
+<h2>String Lowercase method</h2>
+<p id="demo"></p>
+<button onclick="change()" class="btn">Click me!
+</button>
+<script>
+function change()
+{
+  var str=prompt("Please enter a string");
+  str=str.toLowerCase();
+ document.getElementById("demo").innerHTML=str;
+
+ 
+
+}
+      </script>
+  </body></html>
+
+  <!--starting from 7 it will cut at 6-->
