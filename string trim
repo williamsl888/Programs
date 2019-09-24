@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>String Trim method</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var str = "     Hello World!     ";
+  alert(str.trim());
+}
+</script>
+
+</body>
+</html>
