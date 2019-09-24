@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .btn{
+        background-color:lightblue;
+        padding:8px;
+        font-size:2opx;
+        border:1px solid black;
+        border-radius:5px;
+      }
+      </style>
+      </head>
+<body>
+  <h2>Array Elements as Objects</h2>
+<p id="demo"></p>
+<script>
+  var i;
+var text="";
+  var student={name:"William",rollno:1234,grade:"A+"};
+ 
+  
+  
+  document.getElementById("demo").innerHTML="The student name is "+student["name"]+"<br>Student Roll number is :"+student["rollno"]+"<br>Student grade is :"+student["grade"];
+  
+
+ // document.getElementById("demo").innerHTML=x.toFixed(0)+"<br>"+x.toFixed(2)+"<br>"+x.toFixed(4)+"<br>"+x.toFixed(6);
+
+</script>
+
+</body>
+</html>
