@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h2>String Slice() method</h2>
+    <p id="demo">
+    </p>
+    <script>
+      var text=prompt("Please enter a string");
+      var start=parseInt(prompt("Please enter the starting index"));
+      var end=parseInt(prompt("Please enter the ending index"));
+      var slicedtext=text.slice(start,end);
+      document.getElementById("demo").innerHTML=slicedtext;
+      </script>
+  </body>
+</html>
