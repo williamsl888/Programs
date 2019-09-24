@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .btn{
+        background-color:darkblue;
+        border-radius:5px;
+        color:white;
+        padding:5px;
+        border:1px solid darkblue;
+        font-size:18px;
+      }
+      </style>
+  </head>
+  <body>
+<h2>String replace method</h2>
+<p id="demo"></p>
+<button onclick="change()" class="btn">Click me!
+</button>
+<script>
+  var str=prompt("Please enter a string");
+ document.getElementById("demo").innerHTML=str;
+function change(){
+ 
+ var toreplace=prompt("Please enter the string you want to replace");
+ var replacewith=prompt("Please enter the string you want to put");
+  var text=str.replace(toreplace,replacewith);
+  document.getElementById("demo").innerHTML=text;
+
+}
+      </script>
+  </body></html>
+
+  <!--starting from 7 it will cut at 6-->
