@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+      </head>
+  <body>
+    <h2>String method indexof</h2>
+    <p id="demo"> 
+      </p>
+      <script>
+      var text=prompt("Enter a string containing your name");
+      var search=prompt("Enter the string you want to search");
+      var pos=text.indexOf(search);
+      document.getElementById("demo").innerHTML="Your name is present at "+pos+" position";
+      </script>
+  </body></html>
+
+  <!-- your name and at what position--> 
