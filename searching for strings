@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h2>String method lastindexof </h2>
+    <p id="demo">
+    </p>
+    <script>
+      var str=prompt("Please enter a string");
+      var search =prompt("Please enter the string that you want to search ")
+      var pos=str.lastIndexOf(search);
+      document.getElementById("demo").innerHTML=pos;
+      </script>
+  </body>
+</html>
